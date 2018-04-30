@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">WORK</string>
+    <string name="cadastro">Register</string>
+    <string name="about">About</string>
+    <string name="dados">Data</string>
+    <string name="nome">NAME  </string>
+    <string name="idade">AGE</string>
+    <string name="end">ADRESS</string>
+    <string name="salvar">SAVE</string>
+    <string name="digits">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="numbers">0123456789</string>
+    <string name="sim">YES</string>
+    <string name="nao">NO</string>
+    <string name="pergunta1">IS YOUR DATA CORRECT?</string>
+    <string name="cadastro_salvo">Successful registration</string>
+    <string name="scan">Scan a bar code</string>
+    <string name="errorField">Invalid field</string>
+    <string name="cancelado">Cancelled</string>
+    <string name="universidade">Universidade</string>
+    <string name="curso">Curso</string>
+    <string name="aluno">Aluno</string>
+    <string name="descricao">Renato Benatti é estudante do 4ª ano do curso de Sistemas de informação campus Sede. Possui 23 anos e reside na pacata cidade de Tapira que fica a 65km de Umuarama.</string>
+    <string name="ra">RA: 00135678</string>
+    <string name="si">O curso de Sistemas de Informação da Unipar visa formar um profissional que se diferencia por ser capaz de atuar em um mercado em constante transformação, identificando e solucionando problemas de informação nas organizações através de recursos computacionais e humanos. Ao final do curso, você terá pleno conhecimento para atuar nas diversas áreas da informática, criando, aplicando e desenvolvendo programas, aplicativos e novas tecnologias que contribuam para a evolução da sociedade e o melhor desempenho das organizações.</string>
+    <string name="unipar">A Universidade Paranaense é uma universidade privada brasileira localizada no estado do Paraná. Possui campus em Cascavel, Cianorte, Francisco Beltrão, Guaíra, Paranavaí, Toledo e Umuarama."</string>
+    <string name="beep">AHHN OH AÃN AAAAH ÕÕH ÃÃÃÃH AAHN OH</string>
+    <string name="ativouBeep">Eu fui trollado</string>
+    <string name="run">Run, Forrest, Run!</string>
+    <string name="sairAplicacao">Deseja realmente sair?</string>
+
+</resources>

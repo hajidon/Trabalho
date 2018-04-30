@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_bg"
+    android:layout_margin="3pt"
+    >
+
+    <RelativeLayout
+        android:layout_margin="2pt"
+        android:layout_width="match_parent"
+        android:layout_height="180pt">
+
+        <EditText
+        android:id="@+id/editNome"
+        android:layout_marginTop="6pt"
+        android:background="@drawable/border_bg"
+        android:layout_width="match_parent"
+        android:layout_height="35pt"/>
+
+        <EditText
+         android:layout_marginTop="6pt"
+         android:id="@+id/editIdade"
+         android:background="@drawable/border_bg"
+         android:layout_width="match_parent"
+         android:layout_height="35pt"
+         android:layout_below="@+id/editNome" />
+        <EditText
+            android:layout_marginTop="6pt"
+            android:id="@+id/editEnd"
+            android:background="@drawable/border_bg"
+            android:layout_width="match_parent"
+            android:layout_height="35pt"
+            android:layout_below="@+id/editIdade"
+            />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/botoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        >
+
+        <Button
+            android:id="@+id/sim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sim"
+            android:textColor="@color/branco"
+            android:layout_marginRight="2pt"
+            android:background="@color/colorPrimary"
+            android:onClick="dadosCertos"
+            android:layout_gravity=""
+            />
+        <Button
+            android:layout_marginLeft="2pt"
+            android:id="@+id/nao"
+            android:textColor="@color/branco"
+            android:background="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/sim"
+            android:text="@string/nao"
+            android:onClick="dadosErrados"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/pergunta"
+        android:layout_width="match_parent"
+        android:layout_height="30pt"
+        android:layout_alignTop="@+id/botoes"
+        android:layout_marginTop="-35pt"
+        android:text="@string/pergunta1"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:gravity="center_vertical"/>
+
+
+</RelativeLayout>
